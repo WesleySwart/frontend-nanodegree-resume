@@ -216,23 +216,20 @@ projects.display();
 education.display();
 
 //Internationalize
-/*$("#main").append(internationalizeButton);
+/*function inName(name){
+	var name = bio.name;
+	name = name.trim().split(" ");
+	console.log(name);
+	name[1] = name[1].toUpperCase();
+	name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
 
-function inName() {
-var finalName = bio.name;
-var space = finalName.search(" ");
-var subFirst = finalName.substr(1, space - 1);
-console.log(subFirst);
-var subSecond = finalName.substring(space + 2);
-console.log(subSecond);
-finalName = finalName[0] + subFirst.toLowerCase() + " " + finalName[space + 1] + subSecond.toUpperCase();
-return finalName;
+	return name[0] + " " + name[1];
 }
 
-console.log(inName(bio.name))
+$('#main').append(internationalizeButton);
 */
 
-$("#mapDiv").append();
+$("#mapDiv").append(googleMap);
 
 $("#footerContacts").append();
 
