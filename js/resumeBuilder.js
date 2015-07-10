@@ -57,6 +57,12 @@ var bio = {
 				$("#skills:last").append(formattedSkills);
 			}
 		}
+
+		$("#footerContacts").append(formattedMobile);
+		$("#footerContacts").append(formattedEmail);
+		$("#footerContacts").append(formattedGithub);
+		$("#footerContacts").append(formattedTwitter);
+		$("#footerContacts").append(formattedLocation);
 	}
 };
 
@@ -230,8 +236,3 @@ $('#main').append(internationalizeButton);
 */
 
 $("#mapDiv").append(googleMap);
-
-$("#footerContacts").append();
-
-
-
