@@ -13,7 +13,7 @@ These are HTML strings. As part of the course, you'll be using JavaScript functi
 replace the %data% placeholder text you see in them.
 */
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
-var HTMLheaderRole = '<span>%data%</span><hr/>';
+var HTMLheaderRole = '<span id="role">%data%</span><hr/>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="blue-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="blue-text">mobile</span><span class="white-text">%data%</span></li>';
@@ -67,13 +67,34 @@ $(document).ready(function() {
     var iName = inName() || function(){};
     $('#name').html(iName);  
   });
-  //JQuery UI Accordian
-  $('#accordion').accordion({
-    header: "h2",
-    heightStyle: "content",
-    icons:{"header": "ui-icon-plus","activeHeader": "ui-icon-minus"},
-    collapsible: true
-    });
+
+  //Toggle visibility of resume items
+  $('#workExperience').click(function(){
+    $('.work-entry').toggle();
+  });
+
+  $('#projects').click(function(){
+    $('.project-entry').toggle();
+  });
+
+  $('#education').click(function(){
+    $('.education-entry').toggle();
+    $('#education h3').toggle();
+  });
+
+  //Toggle visibility of map; adjust height and padding accordingly
+  $('#mapDiv h2').click(function(){
+    $('#map').toggle();
+    if ($('#map').is(':hidden')){
+      console.log('map hidden');
+      $('#mapDiv').css('height', '100%');
+      $('#mapDiv').css('padding-bottom', '1%')
+    }
+    else{
+      $('#mapDiv').css('height', '400px');
+      $('#mapDiv').css('padding-bottom', '5%')
+    }
+  });
 });
 
 /*

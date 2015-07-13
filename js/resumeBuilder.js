@@ -9,14 +9,14 @@ var bio = {
 	"name": "Wesley Swart",
 	"role": "Web Developer",
 	"contacts": {
-		"mobile": "318-548-1745",
+		"mobile": "555-555-5555",
 		"email": "wswart2008@gmail.com",
 		"github": "WesleySwart",
 		"twitter": "@wesleyswart",
 		"location": "Dallas, TX"
 	},
 	"bioPic": "images/fry.jpg",
-	"welcomeMessage": "Hello World!",
+	"welcomeMessage": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
 	"skills": ["HTML", "CSS", "JavaScript", "JQuery"],
 	"display": function(){
 		//Main Header
@@ -73,21 +73,21 @@ var work = {
 		"title": "Application Developer",
 		"location": "Lewisville, TX",
 		"dates": "10/2012 - present",
-		"description": "Voice4net description"
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 	},
 	{
 		"employer": "Warner Bros",
 		"title": "Analyst",
 		"location": "Burbank, CA",
 		"dates": "9/2011 - 8/2012",
-		"description": "Warner Bros description"
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 	},
 	{
 		"employer": "Business Technology Group",
 		"title": "Systems Engineer",
 		"location": "Ruston, LA",
 		"dates": "1/2010 - 7/2011",
-		"description": "BTG description"
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 	}
 	],
 	"display": function(){
@@ -115,13 +115,13 @@ var projects = {
 	{
 		"title": "Sample Project 1",
 		"dates": "2015",
-		"description": "Sample project description",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 		"images": ["images/197x148.gif","images/197x148.gif"]
 	},
 	{
 		"title": "Sample Project 2",
 		"dates": "2015",
-		"description": "Sample project description",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 		"images": ["images/197x148.gif","images/197x148.gif"]
 	}
 	],

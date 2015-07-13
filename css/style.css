@@ -16,7 +16,7 @@
 h1 {
   font-size: 40px;
   /*color: #F5A623;*/
-  color: #283B65;
+  color: #9098A6;
   line-height: 48px;
   display: inline;
 }
@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #555D6B;
   line-height: 29px;
   padding: 10px;
 }
@@ -89,7 +89,7 @@ a {
 
 #skillsH3 {
   /*color: #F5AE23;*/
-  color: #283B65;
+  color: #9098A6;
   display: none;
 }
 
@@ -102,16 +102,17 @@ a {
 }
 
 .blue {
-  background-color: #283B65;
+  background-color: #9098A6;
 }
 
 .blue-text {
-  color: #283B65;
+  color: #9098A6;
 }
 
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
+  color: #D3CFC6;
 }
 
 .gray {
@@ -122,13 +123,17 @@ a {
 
 .dark-gray {
   /*background-color: #4A4A4A;*/
-  background-color: #747373;
+  background-color: #555D6B;
 }
 
 /* TODO: Replace with image later */
 #header {
   /*background-color: #484848;*/
-  background-color: #747373;
+  background-color: #555D6B;
+}
+
+#role {
+  color: #D3CFC6;
 }
 
 .flex-box {
@@ -217,6 +222,10 @@ span {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
+}
+
+.mapClosed{
+  height: 100%;
 }
 
 @media only screen and (min-width: 750px) {
